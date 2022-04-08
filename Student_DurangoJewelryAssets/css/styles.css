@@ -1,0 +1,72 @@
+
+/* William Soltau, 4/7/2022 */
+
+@font-face {
+    font-family:'alex brush';
+    src: url('../fonts/') format('woff'),
+         url('../fonts/alexbrush-regular-webfont.woff2') format('woff2');
+         
+		 font-style: italic; 
+    
+}
+
+html{
+	background-image: url('../images/jewelry.jpg');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+}
+
+header img {
+	float: left;
+	border-radius: 100px;
+}
+
+nav{
+	clear: left;
+}
+
+nav li{
+	list-style-type: none;
+	font-size: 1.5em;
+	}
+
+h1{
+	font-family: 'Pacifico', cursive, sans-serif;
+	font-size: 4em;
+}
+
+h2{
+	font-family: 'alex brush', "Times New Roman", serif;
+	font-size: 2em;
+	
+}
+
+#outerwrapper {	
+	border-radius: 15%;
+	background: rgba(243,205,170, 0.4);
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+.addrightmargin {
+margin-right: 10%;
+}
+
+main{
+	background-image: linear-gradient(to bottom, #FFFFFF , #F0F9E6);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;
+	font-size: 1.25em;
+	font-family: 'Courier New', Courier, sans-serif;
+}
+footer{
+	padding: 10px;
+	text-align: center;
+	font-size: 1em;
+}
