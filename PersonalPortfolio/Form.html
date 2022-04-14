@@ -1,0 +1,97 @@
+<!--William Soltau, 4/14/2022-->
+
+<!DOCTYPE html>
+<!--William Soltau 03/15/2020-->
+<html  lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Form of how you can contact me">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="--William Soltau">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Portfolio Form</title>
+   <link href="css/portfolioStyles.css" rel="stylesheet" />
+   <link href="css/stylesTable.css" rel="stylesheet" />
+  
+</head>
+<body>
+    <header>
+        <!-- href Picture-->
+        <h1>
+			<a href="Home.html"><img src="images/origin.jpg" alt=" Computer with data floating around it"></a>
+		</h1>
+        <nav>
+            <!--nav links-->
+            <ul>
+                <li><a href="Home.html">Home</a>&nbsp;</li>
+                <li><a href="Experience.html">Experience</a>&nbsp;</li>
+                <li><a href="Information.html">Information</a>&nbsp;</li>
+                <li><a href="Form.html"> Contact Form</a>&nbsp;</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p>You can contact me or provide some feedback by leaving the following information. </p>
+        <form action="mailto:cyrilsoltau@my.cwi.edu?subject=Personal Portfolio Mail" enctype="text/plain" method="POST">
+            <!-- text in fieldset-->
+            <fieldset>
+                <legend>Company</legend>
+                
+                <input type="text" name="compName" size="50" id="company"><br>  
+            </fieldset><br>
+             <!--Asking for Person to contact-->
+            <fieldset>
+                <legend>First & Last name</legend>
+                <input type="text" name="contactName" size="30" id="contact"><br>
+            </fieldset><br><br>
+            
+            
+            <fieldset>
+               <legend>Enter your comments</legend>
+                <textarea cols="100" rows="10" name="comment"></textarea><br>
+            </fieldset><br><br>
+            
+    
+          <!--radio box in fieldset--> 
+    <fieldset>
+        <legend>how did you hear about me?</legend>
+    <input type="radio" name="were" value ="in" id ="in"><label for="in">Indeed</label><br>
+    <input type="radio" name="were" value ="job" id ="job"><label for="job">Jobfair</label><br>
+    <input type="radio" name="were" value ="cwi" id ="cwi"><label for="cwi">CWI Software Development Corporate Partner</label><br>
+    <input type="radio" name="were" value ="link" id ="linl"><label for="link">LinkIn</label><br>
+    <input type="radio" name="were" value ="per" id ="per"><label for="per">Personal recomandation</label><br><br>
+    </fieldset><br>
+    
+     <!--drop down menu in fieldset-->
+    <fieldset>
+       <legend>Avilable job Position</legend>
+    <select name="type" >
+       
+        <optgroup label = "Position Type">
+         <option>Part-time</option> 
+         <option>Full-Time</option> 
+         <option>Contract</option>
+         <option>Temporary</option>
+         <option>On Call</option>
+         </optgroup>
+    </select>
+    </fieldset><br><br>
+          <!-- Submet Button-->  
+        <input type="submit" id="submit" value="Submit" class="btn">
+         </form>
+     
+    
+    </main>
+    
+    <!--Footer with my contact information-->
+    <footer class = "Phone">
+        <h2>Contact information:</h2>
+       <p> Email: <a href="mailto:cyrilsoltau@my.cwi.edu">cyrilsoltau@my.cwi.edu</a><br>Phone: <a href="tel:+12087036189">(208)703.6189</a></p>
+       <p><a href="https://github.com/WilliamSoltau/WilliamSoltau.github.io" target="_blank"><img src="images/iconmonstr-github-1-48.png" alt="Icon for Github"></a>
+             <a href="https://www.linkedin.com/" target="_blank"><img src="images/iconmonstr-linkedin-4-48.png" alt = "Icon for LinkIn"></a>
+             </p>
+     </footer>
+</body>
+</html>
