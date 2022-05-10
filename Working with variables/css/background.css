@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bree+Serif&family=Josefin+Sans:ital,wght@1,100&family=Merriweather+Sans:ital,wght@1,300&family=Oswald:wght@200&family=Roboto+Slab:wght@100&display=swap");
+background {
+  color: #EEE8D6;
+  margin: 20px 0;
+  width: 100%;
+}
+
+background .container {
+  display: table-cell;
+  vertical-align: bottom;
+  padding-bottom: 20px;
+}
+
+background h1 {
+  color: yellow;
+  font-family: "Merriweather", Helvetica, san-serif;
+  font-size: 5rem;
+  line-height: 105%;
+  margin-bottom: 0;
+  padding: 0 10%;
+}
+
+background p {
+  padding: 0 10%;
+  margin-top: 0;
+}
+
+.jumbotron {
+  background: #022933;
+  height: 600px;
+}
+/*# sourceMappingURL=background.css.map */
